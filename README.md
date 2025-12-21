@@ -5,7 +5,7 @@ Fichier ReadMe : Analyse de données bactériennes chez la souris
 Notre code Python a pour objectif d’analyser des données issues de fichiers CSV contenant des mesures de quantité de bactéries vivantes dans différentes parties (fécal, cæcal, iléal) du système digestif de souris soumises à différents traitements (ABX, cocktail d’antibiotiques ou Placebo). Il va ainsi générer automatiquement trois graphiques : une courbe temporelle pour les analyses fécales et deux graphiques en violon différents pour les données caecales et iléales.
 Les graphiques sont ensuite sauvegardés dans un dossier dédié.
 2.	Structure du projet.
-Notre projet va être structuré de la façon suivante : le fichier de données data_small.csv se trouve à la racine du projet. Puis, nous pouvons retrouver notre scripte principal, main.py avant de voir les fichiers input/, contenant une copie du fichier CSV. Puis, le dossier contenant les graphiques sera créé : images/.
+Notre projet va être structuré de la façon suivante : le fichier de données data_small.csv se trouve à la racine du projet. Puis, nous pouvons retrouver notre script principal, main.py avant de voir les fichiers input/, contenant une copie du fichier CSV. Puis, le dossier contenant les graphiques sera créé : images/.
 Pour cela, nous avons dû faire appel à la bibliothèques matplotlib, pandas, math, shutil et os.
 3.	Instructions pour lancer le code
 Il faut d’abord cloner le dépôt et vérifier la présence du fichier data_small.csv. Le script dépendant de ce fichier, il doit être placé à la racine du projet.
